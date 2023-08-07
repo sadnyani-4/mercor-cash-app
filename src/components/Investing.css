@@ -1,0 +1,185 @@
+.Investing {
+    height: 100vh;
+    background-color: #00D54B;
+    position: relative;
+}
+
+h1.i-title {
+    position: absolute;
+    top: 131px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.it {
+    height: 100%;
+    width: 100%;
+}
+
+.Investing h2 {
+    font-size: 22px;
+    line-height: 40px;
+    color: black;
+    font-weight: 800;
+}
+
+.Investing p {
+    font-size: 16px;
+}
+
+.inv-stuff {
+    width: 87%;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    top: 254px;
+    margin: 0px 95px;
+}
+
+.inv-stuff img {
+    display: flex;
+}
+
+.invg1 {
+    position: absolute;
+    top: 416px;
+    left: 0px;
+    z-index: 10;
+}
+
+.invg2 {
+    position: absolute;
+    right: 0px;
+    top: 123px;
+    display: block;
+}
+
+.invg3 {
+    position: absolute;
+    right: 0px;
+    top: 446px;
+    display: block;
+}
+
+.inv-floor {
+    background-color: white;
+    position: absolute;
+    bottom: -10px;
+    left: 0px;
+    width: 100%;
+}
+
+.footer {
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    bottom: 20px;
+    z-index: 10;
+}
+
+.footer .butto button {
+    display: flex;
+    font-size: 12px;
+    background-color: white;
+    font-family: 'Agrandir', sans-serif;
+    align-items: center;
+    border-color: #000;
+    border-radius: 7px;
+    padding: 25px;
+    width: 170px;
+    height: 50px;
+    color: #000;
+    font-weight: 800;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+
+.footer img.arrow {
+    height: max-content;
+    position: absolute;
+    left: 50%;
+}
+
+.footer p.policy {
+    font-size: 10px;
+    /* width: 363px; */
+    line-height: 13px;
+    position: absolute;
+    left: 60%;
+    color: #606060;
+    font-family: 'Mulish', sans-serif;
+}
+
+.bit-text {
+    position: relative;
+    top: auto;
+}
+
+/* ========== MEDIA QUERIES (MEDIUM DEVICES) ========== */
+
+@media screen and (max-width: 1024px) {
+    .footer .butto button {
+        width: fit-content;
+        padding: 12px;
+    }
+
+    .inv-stuff {
+        top: 224px;
+        width: max-content;
+        text-align: center;
+        /* display: block; */
+        justify-content: center;
+        margin: 0px 55px;
+        gap: 20px;
+    }
+
+    .inv-stuff img {
+        display: none;
+    }
+
+    .invg3 {
+        display: none;
+    }
+
+    .invg2 {
+        top: 175px;
+    }
+    
+}
+
+/* ========== MEDIA QUERIES (SMALL DEVICES) ========== */
+
+@media screen and (max-width: 600px) {
+
+    h1.i-title {
+        position: absolute;
+        top: 65px;
+        left: 50%;
+        transform: translate(-50%);
+    }
+    
+
+    .inv-stuff {
+        top: 204px;
+        width: max-content;
+        text-align: center;
+        display: block;
+        justify-content: center;
+        gap: 20px;
+        margin: 0px 35px;
+    }
+
+    .invg1 {
+        display: none;
+    }
+
+    .invg2 {
+        top: 300px;
+    }
+
+    .bit-text {
+        top: 20px;
+    }
+}

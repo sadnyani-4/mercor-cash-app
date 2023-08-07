@@ -1,0 +1,103 @@
+.Boost {
+    height: 100vh;
+    background-color: black;
+    position: relative;
+}
+
+.Boost img {
+    position: absolute;
+}
+
+.boost-text {
+    top: 226px;
+    left: 211px;
+}
+
+.boost-title {
+    color: #00D54B;
+}
+
+.boost-para {
+    color: white;
+}
+
+.bbur {
+    top: 389px;
+    right: 412px;
+}
+
+.bs {
+    top: 402px;
+    right: 20px;
+}
+
+.bp {
+    display: block;
+    top: 149px;
+    left: 558px;
+}
+
+.bh {
+    top: 92px;
+    right: 208px;
+}
+
+.bcup {
+    top: 534px; 
+    right: 308px;
+}
+
+.bca {
+    top: 212px;
+    right: 306px;
+}
+
+.bst2 {
+    bottom: 0px;
+}
+
+.bst1 {
+    right: 0px;
+    bottom: 0px;
+    display: block;
+}
+
+/* ========== MEDIA QUERIES (MEDIUM DEVICES) ========== */
+
+@media screen and (max-width: 1024px) {
+    .boost-text {
+        top: 76px;
+        left: 51px;
+    }
+
+    .bp {
+        display: none;
+    }
+}
+
+/* ========== MEDIA QUERIES (SMALL DEVICES) ========== */
+
+@media screen and (max-width: 600px) {
+    
+
+.bst1 {
+    right: 0px;
+    bottom: 0px;
+    display: none;
+}
+
+.bh {
+    top: 92px;
+    right: 18px;
+}
+
+.bca {
+    top: 312px;
+    right: 156px;
+}
+
+.bcup {
+    top: 534px; 
+    right: 88px;
+}
+}

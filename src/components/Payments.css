@@ -1,0 +1,94 @@
+.Payments {
+    height: 100vh;
+    position: relative;
+    background-color: white;
+}
+
+.pay-text {
+    top: 208px;
+    left: 236px;
+    height: 147px;
+}
+
+.pay-title {
+    color: #00D54B;
+}
+
+.pay-para {
+    width: 352px;
+}
+
+.pc2 {
+    position: absolute;
+    bottom: 0px;
+    left: 295px;
+}
+
+.pc1 {
+    position: absolute;
+    bottom: 0px;
+}
+
+.pc {
+    position: absolute;
+    right: 0px;
+    top: 205px;
+}
+
+.ppm {
+    position: absolute;
+    top: 327px;
+    left: 975px;
+}
+
+.ppm1 {
+    position: absolute;
+    top: 459px;
+    left: 511px;
+}
+
+.ppm3 {
+    position: absolute;
+    top: 471px;
+    left: 150px;
+}
+
+.pps {
+    position: absolute;
+    top: 560px;
+    left: 259px;
+}
+
+.ppl {
+    position: absolute;
+    top: 332px;
+    left: 638px;
+}
+
+.pp1 {
+    position: absolute;
+    top: 116px;
+    left: 306px;
+}
+
+.ppm2 {
+    position: absolute;
+    bottom: 0px;
+    left: 658px;
+}
+
+/* ========== MEDIA QUERIES (MEDIUM DEVICES) ========== */
+
+@media screen and (max-width: 1024px) {
+    
+}
+
+/* ========== MEDIA QUERIES (SMALL DEVICES) ========== */
+
+@media screen and (max-width: 600px) {
+    .pay-text {
+        top: 48px;
+        left: 28px;
+        height: 147px;
+    }
+}

@@ -1,0 +1,115 @@
+.Banking {
+    height: 100vh;
+    background-color: #00D54B;
+    position: relative;
+}
+
+.bank-text {
+    position: absolute;
+    width: fit-content;
+    top: 307px;
+    left: 224px;
+}
+
+.bc {
+    position: absolute;
+    top: 105px;
+    left: 74px;
+}
+
+.bh1 {
+    position: absolute;
+    bottom: 0px;
+    left: 728px;
+}
+
+.bhole {
+    position: absolute;
+    /* left: 0px;
+    top: 0px; */
+}
+
+.bt {
+    position: absolute;
+    bottom: 0px;
+    left: 489px;
+}
+
+.bt2 {
+    position: absolute;
+    top: 16px;
+    left: 939px;
+}
+
+.bs2 {
+    position: absolute;
+    top: 414px;
+    left: 57px;
+}
+
+.bs1 {
+    position: absolute;
+    top: 283px;
+    left: 1153px;
+}
+
+.br2 {
+    position: absolute;
+    top: 511px;
+    left: 157px;
+}
+
+.br1 {
+    position: absolute;
+    top: 213px;
+    left: 789px;
+}
+
+.bp {
+    position: absolute;
+    top: 171px;
+    left: 508px;
+}
+
+.bt1 {
+    position: absolute;
+    top: 161px;
+    left: 354px;
+}
+
+.bm {
+    position: absolute;
+    top: 607px;
+    left: 1178px;
+}
+
+.bcu {
+    position: absolute;
+    top: 517px;
+    left: 853px;
+}
+
+/* ========== MEDIA QUERIES (MEDIUM DEVICES) ========== */
+
+@media screen and (max-width: 1024px) {
+    
+}
+
+/* ========== MEDIA QUERIES (SMALL DEVICES) ========== */
+
+@media screen and (max-width: 600px) {
+    
+
+.bank-text {
+    position: absolute;
+    width: fit-content;
+    top: 307px;
+    left: 54px;
+}
+
+.bs2 {
+    position: absolute;
+    top: 504px;
+    left: 10px;
+}
+}

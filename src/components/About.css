@@ -1,0 +1,105 @@
+.About {
+    height: fit-content;
+    text-align: center;
+    background-color: white;
+    top: 0px;
+    position: relative;
+}
+
+.myinfo {
+    display: flex;
+    position: relative;
+    /* margin: 50px 26px 0px; */
+    margin-top: 50px;
+    margin-bottom: 40px;
+    width: 100%;
+    /* background-color: red; */
+    justify-content: center;
+    gap: 50px;
+}
+
+img.thatsme {
+    height: fit-content;
+    /* display: block; */
+    margin-top: 50px;
+}
+
+.theinfo {
+    color: #810EA9;
+    font-family: Agrandir;
+    font-size: 24px;
+    line-height: 26px;
+    letter-spacing: 0.5px;
+
+}
+
+.theinfo h1 {
+    font-weight: 800;
+
+}
+
+.theinfo p {
+    font-family: Agrandir;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.5px;
+    color: #810EA9;
+}
+
+.theinfo hr {
+    width: 80%;
+    opacity: 0.41999998688697815px;
+    border-color: #D560FE;
+}
+
+.theinfo h2 {
+    font-family: Mulish;
+    font-size: 24px;
+    line-height: 20px;
+    letter-spacing: 3px;
+    color: #810EA9;
+    opacity: 60%;
+}
+
+.asocials {
+    /* display: flex; */
+    gap: 15px;
+}
+
+.asocials img {
+    height: max-content;
+    margin: 0 7px;
+}
+
+.theinfo h3 {
+    font-family: Agrandir;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.5px;
+    /* text-align: left; */
+    opacity: 60%;
+
+}
+
+/* ========== MEDIA QUERIES (MEDIUM DEVICES) ========== */
+
+@media screen and (max-width: 1024px) {
+    .About {
+        height: 95vh;
+    }
+    .myinfo {
+        display: block;
+        position: relative;
+        /* margin: 50px 26px 0px; */
+        margin-top: 50px;
+        width: 100%;
+    }
+}
+
+/* ========== MEDIA QUERIES (SMALL DEVICES) ========== */
+
+@media screen and (max-width: 600px) {
+    
+}

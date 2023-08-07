@@ -1,0 +1,223 @@
+.Cover {
+    background-color: #000000;
+    background-image: url("../assets/Layer 1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.logo {
+    margin-top: 45px;
+    height: max-content;
+}
+
+.Menu {
+    display: flex;
+    padding: 0px 60px;
+    justify-content: space-between;
+    position: relative;
+    text-align: center;
+}
+  
+.eye {
+display: inline-block;
+cursor: pointer;
+margin-top: 50.85px;
+
+background: none;
+border: none;
+height: fit-content;
+width: fit-content;
+transition: transform 0.3s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+transform-origin: center center;
+}
+
+.eye img {
+display: block;
+}
+
+.eye-list {
+  list-style: none;
+  display: none;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  width: fit-content;
+  padding: 10px;
+  background-color: #000000;
+  z-index: 10;
+  text-transform: uppercase;
+  transition: all 0.3s ease-in-out;
+}
+
+.eye-list .eye-row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.eye-list a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.eye-toggle:checked ~ .eye-list {
+  display: none;
+}
+  
+  .eye-toggle:checked + .eye img {
+    transform: rotate(0deg);
+  }
+
+  .eye-toggle {
+    display: none;
+  }
+
+  li.policy {
+    display: flex;
+    font-size: 10px;
+    width: 363px;
+    line-height: 13px;
+    position: absolute;
+    right: 0px;
+    text-align: right;
+    background-color: black;
+    padding: 10px;
+    /* left: 60%; */
+    color: #B6B6B6;
+    font-family: 'Mulish', sans-serif;
+    border-radius: 7px;
+}
+
+.cash-app {
+    left: 29%;
+    
+    top: 10%;
+    font-size: 193px;
+    font-weight: 800;
+    line-height: 166px;
+    letter-spacing: 0.5px;
+    align-items: center;
+    display: inline-block;
+    flex-direction: column;
+    justify-content: center;
+    
+    position: relative;
+    text-align: center;
+    background-color: red;
+}
+
+.the-text {
+    margin: 0 auto;
+}
+
+.cash-app span {
+    display: block;
+    margin: 0px;
+    position: absolute;
+}
+
+.cash-app img {
+    position: absolute;
+    /* top: 0%; */
+    /* left: 50%; */
+    transform: translate(50%, 0%);
+    z-index: 2;
+    height: fit-content;
+}
+
+.cash-app .cash {
+  z-index: 1;
+}
+
+.cash-app .app {
+    left: 100px;
+    /* width: 100%; */
+    text-align: center;
+    z-index: 3;
+    /* background-color: red; */
+}
+
+img.cube {
+    left: 228px;
+    position: absolute;
+}
+
+img.stairs {
+    position: absolute;
+    left: 1135px;
+}
+
+img.cubes {
+    left: 208px;
+    position: absolute;
+    top: 447.29px;
+}
+
+img.pillar {
+    left: 828px;
+    position: absolute;
+    bottom: 0px;
+}
+
+/* ========== MEDIA QUERIES (MEDIUM DEVICES) ========== */
+
+@media screen and (max-width: 1024px) {
+
+    .eye-toggle:checked ~ .eye-list {
+      display: block;
+    }
+    
+  
+  .eye-toggle:checked + .eye img {
+    transform: rotate(90deg);
+  }
+
+  .eye-toggle {
+    display: none;
+  }
+
+    .cash-app {
+        left: 19%;
+        font-size: 173px;
+    }
+
+    img.cubes {
+        left: 108px;
+    }
+
+    img.cube {
+        left: 248px;
+    }
+
+    img.pillar {
+        left: 418px;
+    }
+}
+
+/* ========== MEDIA QUERIES (SMALL DEVICES) ========== */
+
+@media screen and (max-width: 600px) {
+    .cash-app {
+        left: 19%;
+        font-size: 93px;
+    }
+
+    .cash-app img {
+        transform: translate(20%, 35%);
+        height: 150%;
+    }
+
+    img.cube {
+        left: 148px;
+    }
+
+    img.cubes {
+        left: 18px;
+    }
+
+    .Menu {
+        padding: 0px 35px;
+    }
+}

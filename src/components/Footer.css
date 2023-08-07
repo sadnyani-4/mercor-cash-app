@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
+
+.Footer {
+    display: flex;
+    position: absolute;
+    margin-top: 25%;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    bottom: 20px;
+}
+
+.butto {
+    display: flex;
+    margin-left: 60px;
+}
+
+.butto button {
+    margin-right: 20px;
+    display: flex;
+    font-size: 12px;
+    background-color: transparent;
+    font-family: 'Agrandir', sans-serif;
+    align-items: center;
+    border-color: #fff;
+    border-radius: 7px;
+    padding: 25px;
+    width: 170px;
+    height: 50px;
+    color: #fff;
+    font-weight: 800;
+    justify-content: space-between;
+}
+
+.butto span {
+    display: flex;
+}
+
+.Footer img.arrow {
+    height: max-content;
+    position: absolute;
+    left: 50%;
+}
+
+p.policy {
+    display: flex;
+    font-size: 10px;
+    /* width: 363px; */
+    line-height: 13px;
+    position: absolute;
+    left: 60%;
+    color: #B6B6B6;
+    font-family: 'Mulish', sans-serif;
+}
+
+.socials {
+    display: flex;
+    width: 126px;
+    justify-content: space-between;
+    margin-right: 60px;
+}
+
+/* ========== MEDIA QUERIES (MEDIUM DEVICES) ========== */
+
+@media screen and (max-width: 1024px) {
+    .butto span {
+        display: none;
+    }
+
+    .butto button {
+        width: fit-content;
+        padding: 12px;
+    }
+
+    p.policy {
+        display: none;
+    }
+}
+
+/* ========== MEDIA QUERIES (SMALL DEVICES) ========== */
+
+@media screen and (max-width: 600px) {    
+    .socials {
+        display: flex;
+        width: fit-content;
+        gap: 10px;
+        justify-content: space-between;
+        margin-right: 30px;
+    }
+
+    .butto {
+        display: flex;
+        margin-left: 30px;
+        gap: 0px;
+    }
+}

@@ -1,0 +1,59 @@
+.Navbar {
+    font-family: 'Agrandir', sans-serif;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.5px;
+
+    gap: 200px;
+
+    height: fit-content;
+    width: fit-content;
+
+    margin-top: 61px;
+    /* margin-left: 300px; */
+
+    justify-content: center;
+}
+  
+.navbar-list {
+    position: relative;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-list li, .eye-list li {
+  margin: 10px 10px; /* Adjust the margin value to create a 20px gap */
+}
+
+.navbar-list a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.navbar-row {
+    display: flex;
+    justify-self: center;
+    margin: 0px auto 20px;
+}
+
+/* ========== MEDIA QUERIES (MEDIUM DEVICES) ========== */
+
+@media screen and (max-width: 1024px) {  
+    .navbar-list {
+        display: none;
+    }
+
+}
+
+/* ========== MEDIA QUERIES (SMALL DEVICES) ========== */
+
+@media screen and (max-width: 600px) {
+    
+}
